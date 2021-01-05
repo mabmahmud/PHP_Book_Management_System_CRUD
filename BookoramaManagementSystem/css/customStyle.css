@@ -1,0 +1,117 @@
+/*
+Name :Mohammad Mahmudur  Rahman
+Date: 2020/11/01
+Subject : CIS-2288
+Practical: Part-1
+This page is about styling the Bookorama Management System
+*/
+
+
+.btnMargin{
+    margin-right: 5px;
+}
+
+
+/*Style fieldset*/
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto;
+    padding:0 10px;
+    border-bottom:none;
+}
+.form-content{
+    max-width: 70%;
+    margin: 0 auto;
+}
+/*Login form styling*/
+.login-form{
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+/*Logged in text*/
+.loggedIn-text{
+    color: whitesmoke !important;
+}
+
+.btn-edit{
+    font-size: 18px;
+    background-color: #fff3cd;
+    color: black;
+}
+.btn-delete{
+    font-size: 18px;
+    background-color: red;
+}
+.btn-detail{
+    font-size: 18px;
+    background-color: green;
+}
+.fa{
+    font-size: 18px;
+}
+/*Table content*/
+table{
+    border: 1px solid black;
+}
+table th{
+    border-bottom: 1px solid white;
+    color: white;
+}
+table td{
+    border: 1px solid black;
+}
+table thead tr:first-child{
+    background-color: black;
+}
+table tbody tr:nth-child(even){
+    background-color: whitesmoke;
+}
+table tbody tr:nth-child(odd){
+    background-color: #DFDFE6;;
+}
+
+.main-content{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+/*Admin table*/
+.admin table th{
+    background-color: gray;
+    color: black;
+}
+.admin table th a{
+    color: black;
+}
+.admin table th a:hover{
+    color: darkblue;
+}
+
+.admin table tbody tr:nth-child(even){
+    background-color: oldlace;
+}
+.admin table tbody tr:nth-child(odd){
+    background-color: #DFDFE6;
+}
+
+/*Footer Styling*/
+.footer{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 12px;
+}
